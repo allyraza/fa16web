@@ -1,0 +1,29 @@
+@import './utils.less';
+@import './nav.less';
+@import './body.less';
+@import './calendar.less';
+
+/* TODO: Dynamic to work on phones. */
+body {
+  background-color: @background-color;
+  color: @text-color;
+
+  .no-margin-or-padding;
+
+  font-family: @font, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: @highlight-one;
+
+  &:hover {
+    color: @highlight-two;
+  }
+}
+
+.main {
+  width: 80%;
+  .horizontal-center;
+  padding-top: 2%;
+}

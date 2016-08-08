@@ -1,0 +1,30 @@
+@import './utils.less';
+
+.header {
+  background-color: @nav-color;
+  width: 100%;
+  height: 100px;
+  color: @highlight-one;
+
+  .no-margin-or-padding;
+
+  h1 {
+    float: left;
+    left: 20px;
+    .no-margin-or-padding;
+
+    .vertical-center;
+  }
+
+  .nav {
+    float: left;
+    left: 50px;
+
+    a {
+      display: inline;
+      padding: 10px;
+    }
+    
+    .vertical-center;
+  }
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> CS 186 Fall 2016 </title>
+
+    <!-- JQuery and Moment.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.js"></script>
+
+    <!-- Full Calendar for calendar support -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.js"></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/events.js"></script>
+    <script src="assets/js/announcements.js"></script>
+    <script src="announcement-list.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1> CS 186, Fall 2016 </h1>
+
+      <div class="nav">
+        <a href="#announcements">Announcements</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#staff">Staff</a>
+        <a href="#miscellanea">Miscellanea</a>
+        <a href="https://github.com/berkeley-cs186">Github</a>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="info">
+        <b>Lecture</b>: MW 6:30-8pm, 155 Dwinelle
+      </div>
+
+      <div class="announcements" id="announcements">
+        <h2> Announcements </h2>
+        <ul id="announcement-list"> </ul>
+
+        <div id="see-older" onclick="showOlder()">
+          See older announcements
+        </div>
+      </div>
+
+      <div class="spacing"></div>
+
+      <div id="calendar"></div>
+
+      <div class="spacing"></div>
+      
+      <div class="staff" id="staff">
+        <h2> Course Staff </h2>
+
+        <div class="indented">
+          <h3> Instructors </h3>
+
+          <div class="group">
+            <div class="person">
+              <img src="assets/img/amit.jpg" />
+              <br/>
+              <p>
+              Amit Shukla <br/>
+              OH: Wednesday, 5pm
+              </p>
+            </div>
+
+            <div class="person">
+              <img src="assets/img/karthik.jpg" />
+              <br/>
+              <p>
+              Karthik Ramasamy <br/>
+              OH: Wednesday, 5pm
+              </p>
+            </div>
+          </div>
+
+          <h3> TAs </h3>
+          
+          <div class="group">
+            <div class="person">
+              <img src="assets/img/amruta.jpg" />
+              <br/>
+              <p>
+              Amruta Yelamachili <br/>
+              OH: { }
+              </p>
+            </div>
+
+            <div class="person">
+              <img src="assets/img/anurag.jpg" />
+              <br/>
+              <p>
+              Anurag Baddam<br/>
+              OH: Thursday, 4-6pm, {location}
+              </p>
+            </div>
+
+            <div class="person">
+              <img src="assets/img/larry.jpg" />
+              <br/>
+              <p>
+              Larry Xu <br/>
+              OH: Wednesday, 3-5pm, {location}
+              </p>
+            </div>
+
+            <div class="person">
+              <img src="assets/img/sammy.jpg" />
+              <br/>
+              <p>
+              Sammy Sidhu <br/>
+              OH: { }
+              </p>
+            </div>
+          </div>
+
+          <div class="group">
+            <div class="person">
+              <img src="assets/img/selena.jpg" />
+              <br/>
+              <p>
+              Selena Shang <br/>
+              OH: Thursdays, 2:30-4:30pm
+              </p>
+            </div>
+
+            <div class="person">
+              <img src="assets/img/vikram.jpg" />
+              <br/>
+              <p>
+              Vikram Sreekanti <br/>
+              OH: Tuesday, 2-3pm; Friday, 11am-12pm, 651 Soda 
+              </p>
+            </div>
+
+            <div class="person">
+              <img src="assets/img/warren.jpg" />
+              <br/>
+              <p>
+              Warren Shen <br/>
+              OH: { }
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spacing"></div>
+      
+      <div class="miscellanea" id="miscellanea">
+        <h2> Miscellanea </h2>
+        <ul>
+          <li> Interesting tidbits in the world of databases... </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="spacing"></div>
+  </body>
+</html>
