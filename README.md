@@ -11,7 +11,8 @@ as the background for lecture, section, and OH. The secondary color (`#C4820E`) 
 the event is not repeating, then the start and end fields must also have dates, not just times.
 
 TODOs: 
-[ ] modify image styling (remove?) so that it works on phones
-[ ] add bios on hover over images
-[ ] add OH to schedule
-[ ] add lecture schedule
+
+- [ ] modify image styling (remove?) so that it works on phones
+- [ ] add bios on hover over images
+- [ ] add OH to schedule
+- [ ] add lecture schedule
