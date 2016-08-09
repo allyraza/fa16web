@@ -70,14 +70,68 @@ h3 {
 .person p {
   text-align: center;
 }
-.person img {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-}
 .spacing {
   width: 100;
   height: 50px;
+}
+@import ('./utils.less');
+.person-img {
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.person-img:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.65;
+}
+.amit {
+  background: url('../img/amit.jpg');
+  background-size: cover;
+}
+.karthik {
+  background: url('../img/karthik.jpg');
+  background-size: cover;
+}
+.amruta {
+  background: url('../img/amruta.jpg');
+  background-size: cover;
+}
+.anurag {
+  background: url('../img/anurag.jpg');
+  background-size: cover;
+}
+.larry {
+  background: url('../img/larry.jpg');
+  background-size: cover;
+}
+.sammy {
+  background: url('../img/sammy.jpg');
+  background-size: cover;
+}
+.selena {
+  background: url('../img/selena.jpg');
+  background-size: cover;
+}
+.vikram {
+  background: url('../img/vikram.jpg');
+  background-size: cover;
+}
+.warren {
+  background: url('../img/warren.jpg');
+  background-size: cover;
+}
+.bio {
+  display: none;
+  font-size: 16px;
+  position: absolute;
+  color: white;
+}
+.bio p {
+  text-align: center;
 }
 /* TODO: Dynamic to work on phones. */
 body {
