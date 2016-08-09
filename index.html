@@ -15,6 +15,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/events.js"></script>
     <script src="assets/js/announcements.js"></script>
+    <script src="assets/js/people.js"></script>
     <script src="announcement-list.js"></script>
   </head>
 
@@ -57,22 +58,38 @@
         <div class="indented">
           <h3> Instructors </h3>
 
+          <!-- make this div an image specific to each person, and then have
+            the overlay div inside the image div; see: http://jsfiddle.net/6bjTQ/ -->
           <div class="group">
             <div class="person">
-              <img src="assets/img/amit.jpg" />
+              <div class="person-img amit" onmouseover="imageHover('.amit')" onmouseout="imageDehover('.amit')"> 
+                <div class="overlay"></div>
+
+                <p class="bio">
+                </p>
+              </div>
+
               <br/>
               <p>
               Amit Shukla <br/>
-              OH: Wednesday, 5pm
+              OH: Wednesday, 5pm <br/>
+              { email }
               </p>
             </div>
 
-            <div class="person">
-              <img src="assets/img/karthik.jpg" />
+            <div class="personarkened">
+              <div class="person-img karthik" onmouseover="imageHover('.karthik')" onmouseout="imageDehover('.karthik')"> 
+                <div class="overlay"></div>
+
+                <p class="bio">
+                </p>
+              </div>
+
               <br/>
               <p>
               Karthik Ramasamy <br/>
-              OH: Wednesday, 5pm
+              OH: Wednesday, 5pm <br/>
+              { email }
               </p>
             </div>
           </div>
@@ -81,67 +98,118 @@
           
           <div class="group">
             <div class="person">
-              <img src="assets/img/amruta.jpg" />
+              <div class="person-img amruta" onmouseover="imageHover('.amruta')" onmouseout="imageDehover('.amruta')"> 
+                <div class="overlay"></div>
+                
+                <p class="bio">
+                </p>
+              </div>
+
               <br/>
               <p>
               Amruta Yelamachili <br/>
-              OH: { }
+              OH: { } <br/>
+              { email }
               </p>
             </div>
 
             <div class="person">
-              <img src="assets/img/anurag.jpg" />
+              <div class="person-img anurag" onmouseover="imageHover('.anurag')" onmouseout="imageDehover('.anurag')"> 
+                <div class="overlay"></div>
+                
+                <p class="bio">
+                </p>
+              </div>
+              
               <br/>
               <p>
               Anurag Baddam<br/>
-              OH: Thursday, 4-6pm, {location}
+              OH: Thursday, 4-6pm, 341A Soda <br/>
+              { email }
               </p>
             </div>
 
             <div class="person">
-              <img src="assets/img/larry.jpg" />
+              <div class="person-img larry" onmouseover="imageHover('.larry')" onmouseout="imageDehover('.larry')"> 
+                <div class="overlay"></div>
+                
+                <p class="bio">
+                </p>
+              </div>
+              
               <br/>
               <p>
               Larry Xu <br/>
-              OH: Wednesday, 3-5pm, {location}
+              OH: Wednesday, 3-5pm, {location} <br/>
+              { email }
               </p>
             </div>
 
             <div class="person">
-              <img src="assets/img/sammy.jpg" />
+              <div class="person-img sammy" onmouseover="imageHover('.sammy')" onmouseout="imageDehover('.sammy')"> 
+                <div class="overlay"></div>
+
+                <p class="bio">
+                </p>
+              </div>
               <br/>
               <p>
               Sammy Sidhu <br/>
-              OH: { }
+              OH: { } <br/>
+              { email }
               </p>
             </div>
           </div>
 
           <div class="group">
             <div class="person">
-              <img src="assets/img/selena.jpg" />
+              <div class="person-img selena" onmouseover="imageHover('.selena')" onmouseout="imageDehover('.selena')"> 
+                <div class="overlay"></div>
+
+                <p class="bio">
+                </p>
+              </div>
               <br/>
               <p>
               Selena Shang <br/>
-              OH: Thursdays, 2:30-4:30pm
+              OH: Thursdays, 2:30-4:30pm, 341B Soda <br/>
+              { email }
               </p>
             </div>
 
             <div class="person">
-              <img src="assets/img/vikram.jpg" />
+              <div class="person-img vikram" onmouseover="imageHover('.vikram')" onmouseout="imageDehover('.vikram')"> 
+                <div class="overlay"></div>
+
+                <p class="bio">
+                  I'm is a first year grad student advised by Joe
+                  Hellerstein. I TA'd for CS 186 twice as an undergrad while
+                  at Berkeley. In my free time, I like to read, watch sports, 
+                  and play video games.
+                </p>
+              </div>
+             
               <br/>
               <p>
               Vikram Sreekanti <br/>
-              OH: Tuesday, 2-3pm; Friday, 11am-12pm, 651 Soda 
+              OH: Tuesday, 2-3pm, 651 Soda; <br/> Friday, 11am-12pm, 651 Soda <br/>
+              vikrams+cs186 AT berkeley DOT edu
               </p>
             </div>
 
             <div class="person">
-              <img src="assets/img/warren.jpg" />
+              <div class="person-img warren" onmouseover="imageHover('.warren')" onmouseout="imageDehover('.warren')"> 
+                <div class="overlay"></div>
+
+                <p class="bio">
+                </p>
+              </div>
+              
               <br/>
               <p>
               Warren Shen <br/>
-              OH: { }
+              OH: Monday, 2-4pm, 341A Soda  <br/>
+              { email }
               </p>
             </div>
           </div>
