@@ -12,7 +12,7 @@ the event is not repeating, then the start and end fields must also have dates, 
 
 TODOs: 
 
-- [ ] modify image styling (remove?) so that it works on phones
-- [ ] add bios on hover over images
+- [x] modify image styling (remove?) so that it works on phones
+- [x] add bios on hover over images
 - [ ] add OH to schedule
 - [ ] add lecture schedule
