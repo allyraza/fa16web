@@ -1,0 +1,32 @@
+.no-margin-or-padding {
+  margin: 0;
+  padding: 0;
+}
+.horizontal-center {
+  margin: 0 auto;
+}
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.schedule table {
+  margin: 0 auto;
+  width: 80%;
+}
+.schedule table th {
+  background-color: #3B7EA1;
+  color: white;
+}
+.schedule table td {
+  text-align: center;
+}
+.schedule table tr {
+  line-height: 18px;
+  background-color: #d9d9d9;
+  color: black;
+}
+.schedule table tr.special {
+  background-color: #C4820E;
+  color: white;
+}

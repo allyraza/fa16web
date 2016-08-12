@@ -1,0 +1,29 @@
+@import './utils.less';
+
+.schedule {
+  table {
+    .horizontal-center;
+    width: 80%;
+
+    th {
+      background-color: @highlight-one;
+      color: white;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    tr {
+      line-height: 18px;
+      background-color: @nav-color;
+      color: @text-color;
+    }
+    
+    tr.special {
+      background-color: @highlight-two;
+      color: white;
+    }
+  }
+}
+
