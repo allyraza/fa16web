@@ -21,7 +21,7 @@ $(document).ready(function() {
       right: 'prev,next'
     },
 
-    titleFormat: '[Course\ Calendar]',
+    //titleFormat: '[Course\ Calendar]',
 
     // don't show weekends
     weekends: false,
@@ -102,5 +102,5 @@ $(document).ready(function() {
 var showOlder = function() {
   loadAnnouncements(false, ANNOUNCEMENT_THRESHHOLD);
 
-  $('#see-older').hide();
+  $('#see-older').fadeOut();
 };

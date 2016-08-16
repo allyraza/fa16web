@@ -9,3 +9,10 @@ To add an event, add to the list in `assets/js/events.js`. If it's a repeating e
 the day of the week (in the `dow` field; numbered with Monday as 1). The color scheme I used was the main color (`#3B7EA1`)
 as the background for lecture, section, and OH. The secondary color (`#C4820E`) is for exams, review sessions, and so on. If
 the event is not repeating, then the start and end fields must also have dates, not just times.
+
+TODOs: 
+
+- [x] modify image styling (remove?) so that it works on phones
+- [x] add bios on hover over images
+- [ ] add OH to schedule
+- [ ] add lecture schedule

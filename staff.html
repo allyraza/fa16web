@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> CS 186 Fall 2016 </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- JQuery and Moment.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.js"></script>
+
+    <!-- Full Calendar for calendar support -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.9.1/fullcalendar.min.js"></script>
+    
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/events.js"></script>
+    <script src="assets/js/announcements.js"></script>
+    <script src="assets/js/people.js"></script>
+    <script src="announcement-list.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Nav -->
+    <header>
+      <h3><a href="/">CS 186</a></h3>
+      <nav>
+        <li class="icon"><a href="https://github.com/berkeley-cs186">
+          <img src="assets/img/github.svg">Homework</a></li>
+        <li><a href="/calendar">Calendar</a></li>
+        <li><a href="/staff">Staff</a></li>
+        <li><a href="/resources">Resources</a></li>
+      </nav>
+    </header>
+
+    <main>
+      
+      <section class="wrapper style1 first center">
+        <div class="header">
+          <h2>Staff</h2>
+        </div>
+        
+        <h3>Teachers</h3>
+        <ul class="grid-split">
+          <li class="small">
+            <img src="assets/img/amit.jpg"/>
+          </li>
+          <li class="large">
+            <p class="member-info">
+              <b>Amit Shukla</b> <br/>
+              OH: Wednesday, 5pm <br/>
+              { email }
+            </p>
+            <p class="member-bio" style="max-width:none;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </li>
+          <li class="small">
+            <img src="assets/img/karthik.jpg"/>
+          </li>
+          <li class="large">
+            <p class="member-info">
+              <b>Karthik Ramasamy</b> <br/>
+              OH: Wednesday, 5pm <br/>
+              { email }
+            </p>
+            <p class="member-bio" style="max-width:none;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </li>
+        </ul>
+
+        <h3>Teaching Assistants</h3>
+        <ul class="grid">
+          <li class="team-member">
+            <img class="staff-img" src="assets/img/amruta.jpg"/>
+            <div class="staff-info">
+              <p><b>Amruta Yelamachili</b></p>
+              <p>OH: Monday &amp; Thursday, 10-11am, 651 Soda</p>
+              <p>{ email }</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img class="staff-img" src="assets/img/anurag.jpg"/>
+            <div class="staff-info">
+              <p><b>Anurag Baddam</b></p>
+              <p>OH: Thursday, 4-6pm, 341A Soda</p>
+              <p>{ email }</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img class="staff-img" src="assets/img/larry.jpg"/>
+            <div class="staff-info">
+              <p><b>Larry Xu</b></p>
+              <p>OH: Wednesday, 3-5pm, {location}</p>
+              <p>{ email }</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img class="staff-img" src="http://placehold.it/350x150"/>
+            <div class="staff-info">
+              <p><b> Sammy Sidhu</b></p>
+              <p>OH: { }</p>
+              <p>{ email }</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img class="staff-img" src="assets/img/selena.jpg"/>
+            <div class="staff-info">
+              <p><b>Selena Shang</b></p>
+              <p>OH: Thursdays, 2:30-4:30pm, 341B Soda</p>
+              <p>{ email }</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img class="staff-img" src="assets/img/vikram.jpg"/>
+            <div class="staff-info">
+              <p><b>Vikram Sreekanti</b></p>
+              <p>OH: Tuesday, 2-3pm, 651 Soda; Friday, 11am-12pm, 651 Soda</p>
+              <p>vikrams+cs186 AT berkeley DOT edu</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                I'm is a first year grad student advised by Joe
+                Hellerstein. I TA'd for CS 186 twice as an undergrad while
+                at Berkeley. In my free time, I like to read, watch sports, 
+                and play video games.
+              </p>
+            </div>
+          </li>
+          <li class="team-member">
+            <img class="staff-img" src="http://placehold.it/350x150"/>
+            <div class="staff-info">
+              <p><b>Warren Shen</b></p>
+              <p>OH: {} </p>
+              <p>{ email }</p>
+            </div>
+            <div class="staff-bio">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+
+
+    </main>
+
+    <footer>
+      <img src="assets/img/UC_Berkeley_Seal_80px.png">
+    </footer>
+
+
+  </body>
+</html>
