@@ -153,7 +153,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 109 (102 Moffitt, Amruta)",
+    title: "Section 109 (102 Moffitt, Warren)",
     start: "13:00",
     end: "14:00",
     dow: [3, ],
@@ -223,7 +223,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 114 (70 Evans, Warren)",
+    title: "Section 114 (70 Evans, Amruta)",
     start: "16:00",
     end: "17:00",
     dow: [3, ],
