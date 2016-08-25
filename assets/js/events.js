@@ -1,6 +1,6 @@
 var allEvents = [
   {
-    title: "Lecture (155 Dwinelle)",
+    title: "Lecture\n(155 Dwinelle)",
     start: "18:30",
     end: "20:00",
     dow: [1, 3],
@@ -19,28 +19,31 @@ var allEvents = [
   },
 
   {
-    title: "Midterm 1 (155 Dwinelle)",
+    title: "Midterm 1\n(155 Dwinelle)",
     start: "2016-10-05 19:00",
     end: "2016-10-05 21:30",
     backgroundColor: "#C4820E",
+    borderColor: "#C4820E"
   },
 
   {
-    title: "Midterm 2 (155 Dwinelle)",
-    start: "2016-11-07 19;00",
+    title: "Midterm 2\n(155 Dwinelle)",
+    start: "2016-11-07 19:00",
     end: "2016-11-07 21:30",
     backgroundColor: "#C4820E",
+    borderColor: "#C4820E"
   },
 
   {
-    title: "Final Exam (location TBD)",
+    title: "Final Exam\n(location TBD)",
     start: "2016-12-16 15:00",
     end: "2016-12-16 18:00",
     backgroundColor: "#C4820E",
+    borderColor: "#C4820E"
   },
 
   {
-    title: "Section 101 (229 Dwinelle, Anurag)",
+    title: "Section 101\n(229 Dwinelle, Anurag)",
     start: "9:00",
     end: "10:00",
     dow: [3, ],
@@ -54,7 +57,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 102 (405 Soda, Vikram)",
+    title: "Section 102\n(405 Soda, Vikram)",
     start: "11:00",
     end: "12:00",
     dow: [2, ],
@@ -69,7 +72,7 @@ var allEvents = [
 
 
   {
-    title: "Section 103 (405 Soda, Vikram)",
+    title: "Section 103\n(405 Soda, Vikram)",
     start: "12:00",
     end: "13:00",
     dow: [2, ],
@@ -83,7 +86,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 104 (289 Cory, Anurag)",
+    title: "Section 104\n(289 Cory, Anurag)",
     start: "11:00",
     end: "12:00",
     dow: [3, ],
@@ -97,7 +100,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 105 (405 Soda, Sammy)",
+    title: "Section 105\n(405 Soda, Sammy)",
     start: "13:00",
     end: "14:00",
     dow: [2, ],
@@ -111,7 +114,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 106 (102 Moffitt, Sammy)",
+    title: "Section 106\n(102 Moffitt, Sammy)",
     start: "12:00",
     end: "13:00",
     dow: [3, ],
@@ -125,7 +128,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 107 (3105 Etcheverry, Larry)",
+    title: "Section 107\n(3105 Etcheverry, Larry)",
     start: "12:00",
     end: "13:00",
     dow: [3, ],
@@ -139,7 +142,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 108 (320 Soda, Larry)",
+    title: "Section 108\n(320 Soda, Larry)",
     start: "13:00",
     end: "14:00",
     dow: [3, ],
@@ -153,7 +156,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 109 (102 Moffitt, Warren)",
+    title: "Section 109\n(102 Moffitt, Warren)",
     start: "13:00",
     end: "14:00",
     dow: [3, ],
@@ -167,7 +170,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 110 (70 Evans, Warren)",
+    title: "Section 110\n(70 Evans, Warren)",
     start: "14:00",
     end: "15:00",
     dow: [3, ],
@@ -181,7 +184,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 111 (9 Evans, Amruta)",
+    title: "Section 111\n(9 Evans, Amruta)",
     start: "14:00",
     end: "15:00",
     dow: [3, ],
@@ -195,7 +198,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 112 (405 Soda, Selena)",
+    title: "Section 112\n(405 Soda, Selena)",
     start: "14:00",
     end: "15:00",
     dow: [2, ],
@@ -209,7 +212,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 113 (405 Soda, Selena)",
+    title: "Section 113\n(405 Soda, Selena)",
     start: "15:00",
     end: "16:00",
     dow: [2, ],
@@ -223,7 +226,7 @@ var allEvents = [
   },
 
   {
-    title: "Section 114 (70 Evans, Amruta)",
+    title: "Section 114\n(70 Evans, Amruta)",
     start: "16:00",
     end: "17:00",
     dow: [3, ],
@@ -236,22 +239,24 @@ var allEvents = [
     ]
   },
   {
-    title: "Warren's OH (341A Soda)",
+    title: "Warren's OH\n(341A Soda)",
     start: "14:00",
     end: "16:00",
     dow: [1, ],
-    backgroundColor: "3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 22),
     ]
   },
 
   {
-    title: "Larry's OH (611 Soda)",
+    title: "Larry's OH\n(611 Soda)",
     start: "15:00",
     end: "17:00",
     dow: [3, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
@@ -259,11 +264,12 @@ var allEvents = [
   },
 
   {
-    title: "Selena's OH (341B Soda)",
+    title: "Selena's OH\n(341B Soda)",
     start: "14:30",
     end: "16:30",
     dow: [4, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 25),
       new Date(2016, 10, 24),
@@ -271,11 +277,12 @@ var allEvents = [
   },
   
   {
-    title: "Anurag's OH (341A Soda)",
+    title: "Anurag's OH\n(341A Soda)",
     start: "16:00",
     end: "18:00",
     dow: [4, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 25),
       new Date(2016, 10, 24),
@@ -283,11 +290,12 @@ var allEvents = [
   },
 
   {
-    title: "Vikram's OH (651 Soda)",
+    title: "Vikram's OH\n(651 Soda)",
     start: "14:00",
     end: "15:00",
     dow: [2, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 23),
       new Date(2016, 10, 22),
@@ -295,11 +303,12 @@ var allEvents = [
   },
 
   {
-    title: "Vikram's OH (651 Soda)",
+    title: "Vikram's OH\n(651 Soda)",
     start: "11:00",
     end: "12:00",
     dow: [5, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 26),
       new Date(2016, 10, 25),
@@ -308,11 +317,12 @@ var allEvents = [
 
 
   {
-    title: "Amruta's OH (651 Soda)",
+    title: "Amruta's OH\n(651 Soda)",
     start: "10:00",
     end: "11:00",
     dow: [1, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 22),
     ]
@@ -320,11 +330,12 @@ var allEvents = [
 
 
   {
-    title: "Amruta's OH (651 Soda)",
+    title: "Amruta's OH\n(651 Soda)",
     start: "10:00",
     end: "11:00",
     dow: [4, ],
-    backgroundColor: "#3B7EA1",
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
     exceptions: [
       new Date(2016, 7, 25),
       new Date(2016, 10, 24),

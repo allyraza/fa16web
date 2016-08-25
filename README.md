@@ -7,5 +7,6 @@ the `ANNOUNCEMENT_THRESHHOLD` defined at the top of `assets/js/main.js`.
 
 To add an event, add to the list in `assets/js/events.js`. If it's a repeating event, specify a start and end time and the 
 the day of the week (in the `dow` field; numbered with Monday as 1). The color scheme I used was the main color (`#3B7EA1`)
-as the background for lecture, section, and OH. The secondary color (`#C4820E`) is for exams, review sessions, and so on. If
-the event is not repeating, then the start and end fields must also have dates, not just times.
+as the background for lecture and section. The secondary color (`#8C3C5A`) is for OH. The tertiary color (`#C4820E`) is for
+exams, review sessions, and so on. If the event is not repeating, then the start and end fields must also have dates,
+not just times.

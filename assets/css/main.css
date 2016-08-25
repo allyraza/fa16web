@@ -28,17 +28,6 @@ body, input, textarea, select {
 	font-weight: 300;
 }
 
-main {
-	min-height: 100%;
-  	margin-bottom: 200px; /* must be same height as the footer */
-}
-
-main:after {
-  content: "";
-  display: block;
-  height: 200px; /* must be same height as the footer */
-}
-
 ul, nav{
 	list-style: none;
 }
@@ -468,7 +457,6 @@ header a:hover {
 	.hero .announcements {
 		margin: 10px;
 		padding: 10px;
-		background-color: #e6e6e6;
 		text-align: left;
 	}
 
@@ -521,6 +509,7 @@ ul.grid-split{
 .grid-split li.large{
 	-ms-flex-preferred-size: 75%;
 	    flex-basis: 75%;
+	height: auto;
 }
 
 .grid-split .member-bio {
@@ -688,8 +677,7 @@ table {
 	}
 
 	table th {
-		padding: 0 0.75em 0.75em 0.75em;
-		text-align: left;
+		padding: 0.75em;
 		text-transform: uppercase;
 		font-size: 0.9em;
 		font-weight: 700;

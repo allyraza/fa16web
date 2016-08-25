@@ -7,7 +7,7 @@
 
 var announcements = {
   "2016-08-22": [
-    "The first lecture wll be on 8/24.",
-    "There will <b>not</b> be section during the week of 8/22. The first sections will be 8/29 and 8/30.",
+    "The first lecture will be on 8/24.",
+    "There will <b>not</b> be section during the week of 8/22. The first sections will be on 8/30 and 8/31.",
   ],
 }
