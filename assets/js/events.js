@@ -341,4 +341,17 @@ var allEvents = [
       new Date(2016, 10, 24),
     ]
   },
+  {
+    title: "Sammy's OH\n(341A Soda)",
+    start: "15:00",
+    end: "17:00",
+    dow: [2, ],
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
+    exceptions: [
+      new Date(2016, 7, 25),
+      new Date(2016, 10, 24),
+    ]
+  },
+
 ];
