@@ -265,9 +265,9 @@ var allEvents = [
 
   {
     title: "Selena's OH\n(341B Soda)",
-    start: "14:30",
-    end: "16:30",
-    dow: [4, ],
+    start: "10:00",
+    end: "12:00",
+    dow: [3, ],
     backgroundColor: "#8C3C5A",
     borderColor: "#8C3C5A",
     exceptions: [
