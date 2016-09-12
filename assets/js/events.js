@@ -51,7 +51,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -65,7 +65,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 23),
       new Date(2016, 10, 22),
-      new Date(2016, 11, 6), 
+      new Date(2016, 11, 6),
       new Date(2016, 11, 13),
     ]
   },
@@ -80,7 +80,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 23),
       new Date(2016, 10, 22),
-      new Date(2016, 11, 6), 
+      new Date(2016, 11, 6),
       new Date(2016, 11, 13),
     ]
   },
@@ -94,7 +94,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -108,13 +108,13 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 23),
       new Date(2016, 10, 22),
-      new Date(2016, 11, 6), 
+      new Date(2016, 11, 6),
       new Date(2016, 11, 13),
     ]
   },
 
   {
-    title: "Section 106\n(102 Moffitt, Sammy)",
+    title: "Section 106\n(102 Moffitt, Andrew)",
     start: "12:00",
     end: "13:00",
     dow: [3, ],
@@ -122,7 +122,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -136,7 +136,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -150,7 +150,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -164,7 +164,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -178,7 +178,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -192,7 +192,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
@@ -206,7 +206,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 23),
       new Date(2016, 10, 22),
-      new Date(2016, 11, 6), 
+      new Date(2016, 11, 6),
       new Date(2016, 11, 13),
     ]
   },
@@ -220,7 +220,7 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 23),
       new Date(2016, 10, 22),
-      new Date(2016, 11, 6), 
+      new Date(2016, 11, 6),
       new Date(2016, 11, 13),
     ]
   },
@@ -234,10 +234,25 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 24),
       new Date(2016, 10, 23),
-      new Date(2016, 11, 7), 
+      new Date(2016, 11, 7),
       new Date(2016, 11, 14),
     ]
   },
+
+  {
+    title: "Section 115\n(310 Soda, Sammy)",
+    start: "15:00",
+    end: "16:00",
+    dow: [2, ],
+    backgroundColor: "#3B7EA1",
+    exceptions: [
+      new Date(2016, 7, 23),
+      new Date(2016, 10, 22),
+      new Date(2016, 11, 6),
+      new Date(2016, 11, 13),
+    ]
+  },
+
   {
     title: "Warren's OH\n(341A Soda)",
     start: "14:00",
@@ -275,7 +290,7 @@ var allEvents = [
       new Date(2016, 10, 24),
     ]
   },
-  
+
   {
     title: "Anurag's OH\n(341A Soda)",
     start: "16:00",
@@ -343,7 +358,7 @@ var allEvents = [
   },
   {
     title: "Sammy's OH\n(341A Soda)",
-    start: "15:00",
+    start: "16:00",
     end: "17:00",
     dow: [2, ],
     backgroundColor: "#8C3C5A",
