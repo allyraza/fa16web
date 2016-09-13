@@ -319,8 +319,8 @@ var allEvents = [
 
   {
     title: "Vikram's OH\n(651 Soda)",
-    start: "11:00",
-    end: "12:00",
+    start: "14:00",
+    end: "15:00",
     dow: [5, ],
     backgroundColor: "#8C3C5A",
     borderColor: "#8C3C5A",
