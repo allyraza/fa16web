@@ -368,5 +368,29 @@ var allEvents = [
       new Date(2016, 10, 24),
     ]
   },
+  {
+    title: "Andrew's OH\n(341B Soda)",
+    start: "12:00",
+    end: "13:00",
+    dow: [1, ],
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
+    exceptions: [
+      new Date(2016, 7, 25),
+      new Date(2016, 10, 24),
+    ]
+  },
+  {
+    title: "Andrew's OH\n(341A Soda)",
+    start: "11:00",
+    end: "12:00",
+    dow: [2, ],
+    backgroundColor: "#8C3C5A",
+    borderColor: "#8C3C5A",
+    exceptions: [
+      new Date(2016, 7, 25),
+      new Date(2016, 10, 24),
+    ]
+  }
 
 ];
