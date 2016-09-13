@@ -13,8 +13,7 @@ var announcements = {
   "2016-08-29": [
     "HW1 Released- due next Wednesday, 9/7 at 11:59pm",
     "HW0 Deadline Postponed- now due Thursday, 9/1 at 11:59am (i.e., noon!)"
-  ]
-  
+  ],
   "2016-09-12": [
     "Homework #2 released. Due Monday, 9/19 at 11:59pm."
   ]
