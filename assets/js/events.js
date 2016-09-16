@@ -318,7 +318,7 @@ var allEvents = [
   },
 
   {
-    title: "Vikram's OH\n(651 Soda)",
+    title: "Vikram's OH\n(283E Soda)",
     start: "14:00",
     end: "15:00",
     dow: [5, ],
