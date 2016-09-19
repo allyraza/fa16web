@@ -8,8 +8,8 @@ var allEvents = [
     exceptions: [
       new Date(2016, 7, 22),
       new Date(2016, 8, 5),
-      new Date(2016, 8, 28),
-      new Date(2016, 10, 2),
+      new Date(2016, 9, 5),
+      new Date(2016, 10, 7),
       new Date(2016, 10, 23),
       new Date(2016, 11, 5),
       new Date(2016, 11, 7),
