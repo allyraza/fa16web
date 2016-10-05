@@ -21,7 +21,7 @@ var allEvents = [
   {
     title: "Midterm 1\n(155 Dwinelle)",
     start: "2016-10-05 19:00",
-    end: "2016-10-05 21:30",
+    end: "2016-10-05 20:30",
     backgroundColor: "#C4820E",
     borderColor: "#C4820E"
   },
