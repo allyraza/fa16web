@@ -333,8 +333,8 @@ var allEvents = [
 
   {
     title: "Amruta's OH\n(651 Soda)",
-    start: "9:00",
-    end: "10:00",
+    start: "10:00",
+    end: "11:00",
     dow: [1, ],
     backgroundColor: "#8C3C5A",
     borderColor: "#8C3C5A",
