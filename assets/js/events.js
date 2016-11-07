@@ -27,9 +27,9 @@ var allEvents = [
   },
 
   {
-    title: "Midterm 2\n(155 Dwinelle)",
+    title: "Midterm 2\n(Check Piazza for Rooms)",
     start: "2016-11-07 19:00",
-    end: "2016-11-07 21:30",
+    end: "2016-11-07 20:30",
     backgroundColor: "#C4820E",
     borderColor: "#C4820E"
   },
